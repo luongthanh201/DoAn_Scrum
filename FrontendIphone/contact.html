@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iPhone 15 - Giới thiệu</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html" style="text-decoration: none"><h1>iPhone</h1></a> 
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Trang chủ</a></li>
+                <li><a href="about.html">Giới thiệu</a></li>
+                <li><a href="product-detail.html">Chi tiết sản phẩm</a></li>
+                <li><a href="contact.html">Liên hệ</a></li>
+            </ul>
+        </nav>
+        <div class="user-actions">
+            <a href="login.html" class="login-btn">Login</a>
+            <a href="account.html" class="user-icon">
+                <img src="asset/user.png" alt="User Icon">
+            </a>
+        </div>
+    </header>
+    <section class="contact-form">
+        <h2>Liên hệ với chúng tôi</h2>
+        <form action="submit-form.php" method="POST">
+            <div class="form-group">
+                <label for="name">Tên:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Số điện thoại:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Tin nhắn:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Gửi</button>
+        </form>
+    </section>
+   
+    <footer>
+        <p>&copy; 2024 iPhone 15 | Tất cả các quyền được bảo lưu.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.js"></script>
+    
+    
+</body>
+
+</html>
